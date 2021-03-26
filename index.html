@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <select name="" id="pizza" onchange="pobieranie(value)">
+        <option value="1">Hawajska</option>
+        <option value="2">Chłopska</option>
+        <option value="3">Margarita</option>
+    </select>
+
+
+
+    <div><input type="text" placeholder="Imię" id="imie" class="inp" onchange="pobieranie(value)"></div>
+
+    <div><input type="text" placeholder="Nazwisko" id='nazwisko' class="inp" onchange="pobieranie(value)"></div>
+
+    <div><input type="tekst" placeholder="email" id='email' class="inp" onchange="walidacjaEmail()"></div>
+
+    <div><input type="tekst" placeholder="telefon" id="tel" class="inp" onchange="telefon(value)"></div>
+
+    <div><input type="text" placeholder="Wiadomość do sprzedającego" id="wiad" class="inp1" onchange="klik()"></div>
+
+    <div><button onclick="pobieranie()" class="btn">Wyślij</button></div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

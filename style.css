@@ -1,0 +1,26 @@
+body{
+    background-color: cadetblue;
+}
+
+.inp{
+    width: 20%;
+    height: 40px;
+    margin: 25px;
+    font-size: 18px;
+}
+
+.inp1{
+    font-size: 18px;
+    width: 35%;
+    height: 80px;
+    margin: 25px;
+}
+
+.btn{
+    width: 20%;
+    height: 40px;
+    margin: 25px;
+    font-size: 18px;
+    background-color: rgb(9, 143, 206);
+    border: solid 4px rgb(47, 121, 155);
+}
